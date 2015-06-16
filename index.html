@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+
+
+<script type="text/javascript" src="../sea-modules/seajs/seajs/2.2.0/sea.js"></script>
+<script type="text/javascript">
+    // var tmp = '<div>{title}</div><ul><li>{1}</li><li>{2}</li><li>{3}</li></ul><div>{time}</div>';
+    // var tmp2 = '<li>[0]</li>';
+    // var data = {
+    //     title: 'holle world!',
+    //     sli: [2,3,4],
+    //     time: '北京时间'
+    // };
+
+    // var oHtml = $.format(tmp2, data.sli);
+
+    // document.write(oHtml);
+
+    // seajs 的简单配置
+    seajs.config({
+      base: "../sea-modules/",
+      alias: {
+        "jquery": "jquery/jquery/1.10.1/jquery.js"
+      }
+    })
+
+    // 加载入口模块
+    seajs.use("../static/hello/src/main")
+
+</script>
+</body>
+</html>
