@@ -16,17 +16,16 @@ define(function(require, exports, module) {
 
 			var oHtml = $.format(tmp, data);
 
-			document.write(oHtml);
+			// document.write(oHtml);
 
 		});
 	});
 
-	// layer.config({
-	//     skin: 'layui-layer-lan',
-	//     extend: ['extend/layer.ext.js']
-	// });
+	layer.config({
+	    path: '../js/layer/' //layer.js所在的目录，可以是绝对目录，也可以是相对目录
+	});
 	layer.msg('rurururur', {icon: 2, time: 2000}, function () {
-	    alert(11);
+	    // alert(11);
 	});
 
 	

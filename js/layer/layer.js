@@ -1,5 +1,3 @@
-define(function(require, exports, module) {
-var $ = require('jquery');
 /*! layer-v1.9.3 弹层组件 License LGPL  http://layer.layui.com/ By 贤心 */ ;
 ! function(a, b) {
 	"use strict";
@@ -15,10 +13,10 @@ var $ = require('jquery');
 		btn: ["&#x786E;&#x5B9A;", "&#x53D6;&#x6D88;"],
 		type: ["dialog", "page", "iframe", "loading", "tips"]
 	};
-	$(window).on('resize', function(event) {
-		ww = $(window).outerWidth();
-		wh = $(window).outerHeight();
-	});
+	// $(window).on('resize', function(event) {
+	// 	ww = $(window).outerWidth();
+	// 	wh = $(window).outerHeight();
+	// });
 	a.layer = {
 		v: "1.9.3",
 		ie6: !!a.ActiveXObject && !a.XMLHttpRequest,
@@ -140,8 +138,8 @@ var $ = require('jquery');
 			i = "object" == typeof f.title,
 			j = f.maxmin && (1 === f.type || 2 === f.type),
 			k = f.title ? '<div class="layui-layer-title" style="' + (i ? f.title[1] : "") + '">' + (i ? f.title[0] : f.title) + "</div>" : "";
-			ww = $(window).outerWidth(),
-			wh = $(window).outerHeight();
+			// ww = $(window).outerWidth(),
+			// wh = $(window).outerHeight();
 				
 		return f.zIndex = h, b([f.shade ? '<div class="layui-layer-shade" id="layui-layer-shade' + d + '" times="' + d + '" style="width:'+ ww +'; height:'+ wh +';' + ("z-index:" + (h - 1) + "; background-color:" + (f.shade[1] || "#000") + "; opacity:" + (f.shade[0] || f.shade) + "; filter:alpha(opacity=" + (100 * f.shade[0] || 100 * f.shade) + ");") + '"></div>' : "", '<div class="' + g[0] + " " + (g.anim[f.shift] || "") + (" layui-layer-" + e.type[f.type]) + (0 != f.type && 2 != f.type || f.shade ? "" : " layui-layer-border") + " " + (f.skin || "") + '" id="' + g[0] + d + '" type="' + e.type[f.type] + '" times="' + d + '" showtime="' + f.time + '" conType="' + (a ? "object" : "string") + '" style="z-index: ' + h + "; width:" + f.area[0] + ";height:" + f.area[1] + (f.fix ? "" : ";position:absolute;") + '">' + (a && 2 != f.type ? "" : k) + '<div class="layui-layer-content' + (0 == f.type && -1 !== f.icon ? " layui-layer-padding" : "") + (3 == f.type ? " layui-layer-loading" + f.icon : "") + '">' + (0 == f.type && -1 !== f.icon ? '<i class="layui-layer-ico layui-layer-ico' + f.icon + '"></i>' : "") + (1 == f.type && a ? "" : f.content || "") + '</div><span class="layui-layer-setwin">' + function() {
 			var a = j ? '<a class="layui-layer-min" href="javascript:;"><cite></cite></a><a class="layui-layer-ico layui-layer-max" href="javascript:;"></a>' : "";
@@ -451,5 +449,3 @@ var $ = require('jquery');
 		e.run(), layer.use("skin/layer.css")
 	}()
 }(window);
-module.exports = layer;
-});
