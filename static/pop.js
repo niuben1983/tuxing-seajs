@@ -5,7 +5,7 @@ define(function(require, exports, module) {
         path: '../js/layer/',
         //layer.js所在的目录，可以是绝对目录，也可以是相对目录
         skin: 'layui-layer-lan',
-        extend: ['../layer/extend/layer.ext.js']
+        extend: 'extend/layer.ext.js'
     });
 
 
