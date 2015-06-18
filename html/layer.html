@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>seajs_layer</title>
+    <link href="../css/css.css" type="text/css" rel="stylesheet" />
+    <style>
+        ul{height: ; padding-left:200px;}
+    </style>
+</head>
+<body>
+<ul>
+    <li><input id="btn" type="button" name="" value="初体验"></li>
+    <li><input id="btn_type" type="button" name="" value="type"></li>
+    <li><input id="btn_iframe" type="button" name="" value="iframe"></li>
+    <li><input id="btn_tips" type="button" name="" value="tips吸附"></li>
+</ul>
+
+<ul id="layer-photos-demo" class="layer-photos-demo">
+    <li><img layer-pid="" layer-src="../1.jpg" src="../1.jpg" alt="1"></li>
+    <li><img layer-pid="" layer-src="../2.jpg" src="../2.jpg" alt="2"></li>
+    <li><img layer-pid="" layer-src="../3.jpg" src="../3.jpg" alt="3"></li>
+</ul>
+
+<div id="endText" style="display: none">
+    <p>网易体育6月8日报道：</p><p><a href="/keywords/6/3/603b51b38d5b/1.html" target="_blank">总决赛</a>第二场，<a href="http://nba.sports.163.com/team/5/">骑士</a>队客场战胜<a href="http://nba.sports.163.com/team/9/">勇士</a>队扳平大比分，<a href="http://nba.sports.163.com/player/214152/">勒布朗</a>-詹姆斯出战50分钟，34投11中得到39分16个篮板11次助攻1次抢断，比赛中连遭凶狠犯规，常规时间最后时刻再次错失绝杀机会，可今天到了加时赛，他没有再次消失，送出关键助攻和罚球帮助<a href="/keywords/9/9/9a9158eb/1.html" target="_blank">骑士</a>队拿到胜利，同时他的狂野数据继续书写着记录。勒布朗是继1988年的沃西之后又一个在总决赛中轰下35+15+10的球员（沃西当时轰下36分16篮板10助攻），而在NBA的历史上，仅有这两人曾在总决赛中送出如此的数据。当然，如果把数据进一步收紧，勒布朗则是历史上唯一一个在总决赛中轰下39+16+11的人，而他两次在总决赛里拿到30+10+10的壮举也是NBA唯一，史上最强球员，勒布朗当之无愧。</p></div>
+
+
+
+<script type="text/javascript" src="../sea-modules/seajs/seajs/2.1.1/sea.js"></script>
+<script type="text/javascript">
+
+    // seajs 的简单配置
+    seajs.config({
+        base: "../sea-modules/",
+        alias: {
+            "jquery": "jquery/jquery/1.10.1/jquery.js",
+            "layer": "../js/layer/layer.js"
+        }
+    });
+
+    // 加载入口模块
+    seajs.use("../static/pop");
+
+</script>
+</body>
+</html>
