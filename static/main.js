@@ -1,5 +1,6 @@
 define(function(require, exports, module) {
 	var $ = require('jquery');
+	var layer = require('layer');
 	$(document).ready(function($) {
 
 		$('#test').css('background', '#f00');
@@ -20,7 +21,13 @@ define(function(require, exports, module) {
 		});
 	});
 
-
+	// layer.config({
+	//     skin: 'layui-layer-lan',
+	//     extend: ['extend/layer.ext.js']
+	// });
+	layer.msg('rurururur', {icon: 2, time: 2000}, function () {
+	    alert(11);
+	});
 
 	
 });

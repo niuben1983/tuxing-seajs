@@ -1,3 +1,5 @@
+define(function(require, exports, module) {
+var $ = require('jquery');
 /*! layer-v1.9.3 弹层组件 License LGPL  http://layer.layui.com/ By 贤心 */ ;
 ! function(a, b) {
 	"use strict";
@@ -449,3 +451,5 @@
 		e.run(), layer.use("skin/layer.css")
 	}()
 }(window);
+module.exports = layer;
+});
