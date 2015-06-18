@@ -5,6 +5,16 @@ define(function(require, exports, module) {
 
 		$('#test').css('background', '#f00');
 
+		
+	});
+
+	layer.config({
+		path: '../js/layer/' //layer.js所在的目录，可以是绝对目录，也可以是相对目录
+	});
+	layer.msg('rurururur', {
+		icon: 2,
+		time: 2000
+	}, function() {
 		require.async('../js/common', function() {
 			var tmp = '<div>{title}</div><ul><li>{title}</li><li>{time}</li><li>{3}</li></ul><div>{time}</div>';
 			var tmp2 = '<li>[0]</li>';
@@ -16,17 +26,10 @@ define(function(require, exports, module) {
 
 			var oHtml = $.format(tmp, data);
 
-			// document.write(oHtml);
 
+		document.write(oHtml);
 		});
 	});
 
-	layer.config({
-	    path: '../js/layer/' //layer.js所在的目录，可以是绝对目录，也可以是相对目录
-	});
-	layer.msg('rurururur', {icon: 2, time: 2000}, function () {
-	    // alert(11);
-	});
 
-	
 });
