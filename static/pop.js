@@ -3,12 +3,29 @@ define(function(require, exports, module) {
     var layer = require('layer');
     layer.config({
         path: '../js/layer/',
+        // extend: 'extend/layer.ext.js'
         //layer.js所在的目录，可以是绝对目录，也可以是相对目录
-        skin: 'layui-layer-lan',
-        extend: 'extend/layer.ext.js'
+        // skin: 'layui-layer-lan'
     });
 
+    require('../js/layer/extend/layer.ext.js');
+    // layer.use('extend/layer.ext.js', function(){
+    //     layer.ext = function(){
+    //         layer.prompt({
+    //             title: '输入任何口令，并确认',
+    //             formType: 1 //prompt风格，支持0-2
+    //         }, function(pass) {
+    //             layer.prompt({
+    //                 title: '随便写点啥，并确认',
+    //                 formType: 2
+    //             }, function(text) {
+    //                 layer.msg('演示完毕！您的口令：' + pass + ' 您最后写下了：' + text);
+    //             });
+    //         });
+    //     };
 
+    //     // layer.ext();
+    // });
 
     $('#btn').on('click', function() {
         // layer.alert('初体验', {icon: 3});
