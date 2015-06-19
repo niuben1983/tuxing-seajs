@@ -2,69 +2,33 @@ define(function(require, exports, module) {
     var $ = require('jquery');
     var layer = require('layer');
     layer.config({
-        path: '../js/layer/'
-        // extend: 'extend/layer.ext.js'
-        //layer.js所在的目录，可以是绝对目录，也可以是相对目录
-        // skin: 'layui-layer-lan'
+        path: '../sea-modules/layer/'
+            //layer.js所在的目录，可以是绝对目录，也可以是相对目录
+            // skin: 'layui-layer-lan'
+    });
+    // 直接rquire引入layer.ext.js扩展，扩展文件需要define，cmd规范
+    require('layer/extend/layer.ext.js');
+
+    $('#btn_alert').on('click', function(event) {
+        layer.alert('初体验');
     });
 
-    require('../js/layer/extend/layer.ext.js');
-    // layer.use('extend/layer.ext.js', function(){
-    //     layer.ext = function(){
-    //         layer.prompt({
-    //             title: '输入任何口令，并确认',
-    //             formType: 1 //prompt风格，支持0-2
-    //         }, function(pass) {
-    //             layer.prompt({
-    //                 title: '随便写点啥，并确认',
-    //                 formType: 2
-    //             }, function(text) {
-    //                 layer.msg('演示完毕！您的口令：' + pass + ' 您最后写下了：' + text);
-    //             });
-    //         });
-    //     };
-
-    //     // layer.ext();
-    // });
-
-    $('#btn').on('click', function() {
-        // layer.alert('初体验', {icon: 3});
-        //tab层
-        layer.tab({
-            area: ['600px', '300px'],
-            tab: [{
-                title: 'TAB1', 
-                content: '内容1'
-            }, {
-                title: 'TAB2', 
-                content: '内容2'
-            }, {
-                title: 'TAB3', 
-                content: '内容3'
-            }]
+    $('#btn_open').on('click', function() {
+        layer.open({
+            type: 1,
+            title: 'hello, world!',
+            content: $('#endText'),
+            success: function () {
+            }
+            
         });
-        //prompt层
-        // layer.prompt({
-        //     title: '输入任何口令，并确认',
-        //     formType: 1 //prompt风格，支持0-2
-        // }, function(pass) {
-        //     layer.prompt({
-        //         title: '随便写点啥，并确认',
-        //         formType: 2
-        //     }, function(text) {
-        //         layer.msg('演示完毕！您的口令：' + pass + ' 您最后写下了：' + text);
-        //     });
-        // });
+        
     });
 
     $('#btn_type').on('click', function() {
         layer.open({
-            // type: 1,
-            // title: 'hello, world!',
-            // content: $('#endText'),
-            // success: function () {
-            // }
-            offset: 'lb',
+            offset: 'rb',
+            //只有右下位置
             type: 1,
             title: false,
             skin: 'layui-layer-demo', //样式类名
@@ -257,6 +221,39 @@ define(function(require, exports, module) {
 
     // var index = layer.load(1,{time: 1000, shade: '#f00'});
 
+    $('#btn_tab').on('click', function() {
+
+        //tab层
+        layer.tab({
+            area: ['600px', '300px'],
+            tab: [{
+                title: 'TAB1',
+                content: '内容1'
+            }, {
+                title: 'TAB2',
+                content: '内容2'
+            }, {
+                title: 'TAB3',
+                content: '内容3'
+            }]
+        });
+    });
+
+    $('#btn_prompt').on('click', function() {
+        //prompt层
+        layer.prompt({
+            title: '输入任何口令，并确认',
+            formType: 1 //prompt风格，支持0-2
+        }, function(pass) {
+            layer.prompt({
+                title: '随便写点啥，并确认',
+                formType: 2
+            }, function(text) {
+                layer.msg('演示完毕！您的口令：' + pass + ' 您最后写下了：' + text);
+            });
+        });
+
+    });
 
 
 });
