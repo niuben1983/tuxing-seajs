@@ -260,6 +260,7 @@ define(function(require, exports, module) {
 
     //laydata
     require.async('laydate', function() {
+        laydate.skin('yalan');
         laydate({
             elem: '#J-xl'
         });
