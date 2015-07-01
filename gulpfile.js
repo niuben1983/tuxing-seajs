@@ -1,5 +1,5 @@
 // 安装插件
-// sudo npm install gulp-wrapper browser-sync gulp-jshint  gulp-ruby-sass gulp-concat gulp-uglify gulp-util gulp-rename gulp-cssmin gulp-imagemin gulp-replace md5-file imagemin-pngquant imagemin-jpegtran --save-dev
+// sudo npm install gulp-wrapper browser-sync gulp-jshint gulp-ruby-sass gulp-concat gulp-uglify gulp-util gulp-rename gulp-cssmin gulp-imagemin gulp-replace md5-file imagemin-pngquant imagemin-jpegtran --save-dev
 
 // 引入 gulp
 var gulp = require('gulp');
@@ -131,7 +131,7 @@ gulp.task('imgmin', function () {
             {progressive: true},
             {arithmetic: true}
         )())
-        .pipe(gulp.dest('img'));
+        .pipe(gulp.dest('imgmin'));
 });
 
 //高

@@ -1,0 +1,635 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'gulp-wrapper',
+1 verbose cli   'browser-sync',
+1 verbose cli   'gulp-jshint',
+1 verbose cli   'gulp-ruby-sass',
+1 verbose cli   'gulp-concat',
+1 verbose cli   'gulp-uglify',
+1 verbose cli   'gulp-util',
+1 verbose cli   'gulp-rename',
+1 verbose cli   'gulp-cssmin',
+1 verbose cli   'gulp-imagemin',
+1 verbose cli   'gulp-replace',
+1 verbose cli   'md5-file',
+1 verbose cli   'imagemin-pngquant',
+1 verbose cli   'imagemin-jpegtran',
+1 verbose cli   '--save-dev' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 verbose node symlink C:\Program Files (x86)\nodejs\\node.exe
+5 verbose cache add [ 'gulp-wrapper', null ]
+6 verbose cache add name=undefined spec="gulp-wrapper" args=["gulp-wrapper",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'gulp-wrapper',
+7 verbose parsed url   path: 'gulp-wrapper',
+7 verbose parsed url   href: 'gulp-wrapper' }
+8 verbose cache add [ 'browser-sync', null ]
+9 verbose cache add name=undefined spec="browser-sync" args=["browser-sync",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'browser-sync',
+10 verbose parsed url   path: 'browser-sync',
+10 verbose parsed url   href: 'browser-sync' }
+11 verbose cache add [ 'gulp-jshint', null ]
+12 verbose cache add name=undefined spec="gulp-jshint" args=["gulp-jshint",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'gulp-jshint',
+13 verbose parsed url   path: 'gulp-jshint',
+13 verbose parsed url   href: 'gulp-jshint' }
+14 verbose cache add [ 'gulp-ruby-sass', null ]
+15 verbose cache add name=undefined spec="gulp-ruby-sass" args=["gulp-ruby-sass",null]
+16 verbose parsed url { protocol: null,
+16 verbose parsed url   slashes: null,
+16 verbose parsed url   auth: null,
+16 verbose parsed url   host: null,
+16 verbose parsed url   port: null,
+16 verbose parsed url   hostname: null,
+16 verbose parsed url   hash: null,
+16 verbose parsed url   search: null,
+16 verbose parsed url   query: null,
+16 verbose parsed url   pathname: 'gulp-ruby-sass',
+16 verbose parsed url   path: 'gulp-ruby-sass',
+16 verbose parsed url   href: 'gulp-ruby-sass' }
+17 verbose cache add [ 'gulp-concat', null ]
+18 verbose cache add name=undefined spec="gulp-concat" args=["gulp-concat",null]
+19 verbose parsed url { protocol: null,
+19 verbose parsed url   slashes: null,
+19 verbose parsed url   auth: null,
+19 verbose parsed url   host: null,
+19 verbose parsed url   port: null,
+19 verbose parsed url   hostname: null,
+19 verbose parsed url   hash: null,
+19 verbose parsed url   search: null,
+19 verbose parsed url   query: null,
+19 verbose parsed url   pathname: 'gulp-concat',
+19 verbose parsed url   path: 'gulp-concat',
+19 verbose parsed url   href: 'gulp-concat' }
+20 verbose cache add [ 'gulp-uglify', null ]
+21 verbose cache add name=undefined spec="gulp-uglify" args=["gulp-uglify",null]
+22 verbose parsed url { protocol: null,
+22 verbose parsed url   slashes: null,
+22 verbose parsed url   auth: null,
+22 verbose parsed url   host: null,
+22 verbose parsed url   port: null,
+22 verbose parsed url   hostname: null,
+22 verbose parsed url   hash: null,
+22 verbose parsed url   search: null,
+22 verbose parsed url   query: null,
+22 verbose parsed url   pathname: 'gulp-uglify',
+22 verbose parsed url   path: 'gulp-uglify',
+22 verbose parsed url   href: 'gulp-uglify' }
+23 verbose cache add [ 'gulp-util', null ]
+24 verbose cache add name=undefined spec="gulp-util" args=["gulp-util",null]
+25 verbose parsed url { protocol: null,
+25 verbose parsed url   slashes: null,
+25 verbose parsed url   auth: null,
+25 verbose parsed url   host: null,
+25 verbose parsed url   port: null,
+25 verbose parsed url   hostname: null,
+25 verbose parsed url   hash: null,
+25 verbose parsed url   search: null,
+25 verbose parsed url   query: null,
+25 verbose parsed url   pathname: 'gulp-util',
+25 verbose parsed url   path: 'gulp-util',
+25 verbose parsed url   href: 'gulp-util' }
+26 verbose cache add [ 'gulp-rename', null ]
+27 verbose cache add name=undefined spec="gulp-rename" args=["gulp-rename",null]
+28 verbose parsed url { protocol: null,
+28 verbose parsed url   slashes: null,
+28 verbose parsed url   auth: null,
+28 verbose parsed url   host: null,
+28 verbose parsed url   port: null,
+28 verbose parsed url   hostname: null,
+28 verbose parsed url   hash: null,
+28 verbose parsed url   search: null,
+28 verbose parsed url   query: null,
+28 verbose parsed url   pathname: 'gulp-rename',
+28 verbose parsed url   path: 'gulp-rename',
+28 verbose parsed url   href: 'gulp-rename' }
+29 verbose cache add [ 'gulp-cssmin', null ]
+30 verbose cache add name=undefined spec="gulp-cssmin" args=["gulp-cssmin",null]
+31 verbose parsed url { protocol: null,
+31 verbose parsed url   slashes: null,
+31 verbose parsed url   auth: null,
+31 verbose parsed url   host: null,
+31 verbose parsed url   port: null,
+31 verbose parsed url   hostname: null,
+31 verbose parsed url   hash: null,
+31 verbose parsed url   search: null,
+31 verbose parsed url   query: null,
+31 verbose parsed url   pathname: 'gulp-cssmin',
+31 verbose parsed url   path: 'gulp-cssmin',
+31 verbose parsed url   href: 'gulp-cssmin' }
+32 verbose cache add [ 'gulp-imagemin', null ]
+33 verbose cache add name=undefined spec="gulp-imagemin" args=["gulp-imagemin",null]
+34 verbose parsed url { protocol: null,
+34 verbose parsed url   slashes: null,
+34 verbose parsed url   auth: null,
+34 verbose parsed url   host: null,
+34 verbose parsed url   port: null,
+34 verbose parsed url   hostname: null,
+34 verbose parsed url   hash: null,
+34 verbose parsed url   search: null,
+34 verbose parsed url   query: null,
+34 verbose parsed url   pathname: 'gulp-imagemin',
+34 verbose parsed url   path: 'gulp-imagemin',
+34 verbose parsed url   href: 'gulp-imagemin' }
+35 verbose cache add [ 'gulp-replace', null ]
+36 verbose cache add name=undefined spec="gulp-replace" args=["gulp-replace",null]
+37 verbose parsed url { protocol: null,
+37 verbose parsed url   slashes: null,
+37 verbose parsed url   auth: null,
+37 verbose parsed url   host: null,
+37 verbose parsed url   port: null,
+37 verbose parsed url   hostname: null,
+37 verbose parsed url   hash: null,
+37 verbose parsed url   search: null,
+37 verbose parsed url   query: null,
+37 verbose parsed url   pathname: 'gulp-replace',
+37 verbose parsed url   path: 'gulp-replace',
+37 verbose parsed url   href: 'gulp-replace' }
+38 verbose cache add [ 'md5-file', null ]
+39 verbose cache add name=undefined spec="md5-file" args=["md5-file",null]
+40 verbose parsed url { protocol: null,
+40 verbose parsed url   slashes: null,
+40 verbose parsed url   auth: null,
+40 verbose parsed url   host: null,
+40 verbose parsed url   port: null,
+40 verbose parsed url   hostname: null,
+40 verbose parsed url   hash: null,
+40 verbose parsed url   search: null,
+40 verbose parsed url   query: null,
+40 verbose parsed url   pathname: 'md5-file',
+40 verbose parsed url   path: 'md5-file',
+40 verbose parsed url   href: 'md5-file' }
+41 verbose cache add [ 'imagemin-pngquant', null ]
+42 verbose cache add name=undefined spec="imagemin-pngquant" args=["imagemin-pngquant",null]
+43 verbose parsed url { protocol: null,
+43 verbose parsed url   slashes: null,
+43 verbose parsed url   auth: null,
+43 verbose parsed url   host: null,
+43 verbose parsed url   port: null,
+43 verbose parsed url   hostname: null,
+43 verbose parsed url   hash: null,
+43 verbose parsed url   search: null,
+43 verbose parsed url   query: null,
+43 verbose parsed url   pathname: 'imagemin-pngquant',
+43 verbose parsed url   path: 'imagemin-pngquant',
+43 verbose parsed url   href: 'imagemin-pngquant' }
+44 verbose cache add [ 'imagemin-jpegtran', null ]
+45 verbose cache add name=undefined spec="imagemin-jpegtran" args=["imagemin-jpegtran",null]
+46 verbose parsed url { protocol: null,
+46 verbose parsed url   slashes: null,
+46 verbose parsed url   auth: null,
+46 verbose parsed url   host: null,
+46 verbose parsed url   port: null,
+46 verbose parsed url   hostname: null,
+46 verbose parsed url   hash: null,
+46 verbose parsed url   search: null,
+46 verbose parsed url   query: null,
+46 verbose parsed url   pathname: 'imagemin-jpegtran',
+46 verbose parsed url   path: 'imagemin-jpegtran',
+46 verbose parsed url   href: 'imagemin-jpegtran' }
+47 silly lockFile 3950c737-gulp-wrapper gulp-wrapper
+48 verbose lock gulp-wrapper C:\Users\Administrator\AppData\Roaming\npm-cache\3950c737-gulp-wrapper.lock
+49 silly lockFile 6d7be3df-browser-sync browser-sync
+50 verbose lock browser-sync C:\Users\Administrator\AppData\Roaming\npm-cache\6d7be3df-browser-sync.lock
+51 silly lockFile aeb19f3d-gulp-jshint gulp-jshint
+52 verbose lock gulp-jshint C:\Users\Administrator\AppData\Roaming\npm-cache\aeb19f3d-gulp-jshint.lock
+53 silly lockFile a832ec05-gulp-ruby-sass gulp-ruby-sass
+54 verbose lock gulp-ruby-sass C:\Users\Administrator\AppData\Roaming\npm-cache\a832ec05-gulp-ruby-sass.lock
+55 silly lockFile a9575072-gulp-concat gulp-concat
+56 verbose lock gulp-concat C:\Users\Administrator\AppData\Roaming\npm-cache\a9575072-gulp-concat.lock
+57 silly lockFile 15fab96b-gulp-uglify gulp-uglify
+58 verbose lock gulp-uglify C:\Users\Administrator\AppData\Roaming\npm-cache\15fab96b-gulp-uglify.lock
+59 silly lockFile 77fa12e5-gulp-util gulp-util
+60 verbose lock gulp-util C:\Users\Administrator\AppData\Roaming\npm-cache\77fa12e5-gulp-util.lock
+61 silly lockFile 8ff38cb7-gulp-rename gulp-rename
+62 verbose lock gulp-rename C:\Users\Administrator\AppData\Roaming\npm-cache\8ff38cb7-gulp-rename.lock
+63 silly lockFile e1115b4f-gulp-cssmin gulp-cssmin
+64 verbose lock gulp-cssmin C:\Users\Administrator\AppData\Roaming\npm-cache\e1115b4f-gulp-cssmin.lock
+65 silly lockFile fa224668-gulp-imagemin gulp-imagemin
+66 verbose lock gulp-imagemin C:\Users\Administrator\AppData\Roaming\npm-cache\fa224668-gulp-imagemin.lock
+67 silly lockFile 92b1681e-gulp-replace gulp-replace
+68 verbose lock gulp-replace C:\Users\Administrator\AppData\Roaming\npm-cache\92b1681e-gulp-replace.lock
+69 silly lockFile 21ba2837-md5-file md5-file
+70 verbose lock md5-file C:\Users\Administrator\AppData\Roaming\npm-cache\21ba2837-md5-file.lock
+71 silly lockFile 1f23bbce-imagemin-pngquant imagemin-pngquant
+72 verbose lock imagemin-pngquant C:\Users\Administrator\AppData\Roaming\npm-cache\1f23bbce-imagemin-pngquant.lock
+73 silly lockFile 4fe9f629-imagemin-jpegtran imagemin-jpegtran
+74 verbose lock imagemin-jpegtran C:\Users\Administrator\AppData\Roaming\npm-cache\4fe9f629-imagemin-jpegtran.lock
+75 silly lockFile 3950c737-gulp-wrapper gulp-wrapper
+76 silly lockFile 3950c737-gulp-wrapper gulp-wrapper
+77 silly lockFile 6d7be3df-browser-sync browser-sync
+78 silly lockFile 6d7be3df-browser-sync browser-sync
+79 silly lockFile a832ec05-gulp-ruby-sass gulp-ruby-sass
+80 silly lockFile a832ec05-gulp-ruby-sass gulp-ruby-sass
+81 silly lockFile 15fab96b-gulp-uglify gulp-uglify
+82 silly lockFile 15fab96b-gulp-uglify gulp-uglify
+83 silly lockFile 77fa12e5-gulp-util gulp-util
+84 silly lockFile 77fa12e5-gulp-util gulp-util
+85 silly lockFile a9575072-gulp-concat gulp-concat
+86 silly lockFile a9575072-gulp-concat gulp-concat
+87 silly lockFile 8ff38cb7-gulp-rename gulp-rename
+88 silly lockFile 8ff38cb7-gulp-rename gulp-rename
+89 silly lockFile e1115b4f-gulp-cssmin gulp-cssmin
+90 silly lockFile e1115b4f-gulp-cssmin gulp-cssmin
+91 silly lockFile aeb19f3d-gulp-jshint gulp-jshint
+92 silly lockFile aeb19f3d-gulp-jshint gulp-jshint
+93 silly lockFile fa224668-gulp-imagemin gulp-imagemin
+94 silly lockFile fa224668-gulp-imagemin gulp-imagemin
+95 silly lockFile 92b1681e-gulp-replace gulp-replace
+96 silly lockFile 92b1681e-gulp-replace gulp-replace
+97 verbose addNamed [ 'gulp-wrapper', '' ]
+98 verbose addNamed [ null, '*' ]
+99 silly lockFile a8bc071e-gulp-wrapper gulp-wrapper@
+100 verbose lock gulp-wrapper@ C:\Users\Administrator\AppData\Roaming\npm-cache\a8bc071e-gulp-wrapper.lock
+101 verbose addNamed [ 'browser-sync', '' ]
+102 verbose addNamed [ null, '*' ]
+103 silly lockFile 6373e9ab-browser-sync browser-sync@
+104 verbose lock browser-sync@ C:\Users\Administrator\AppData\Roaming\npm-cache\6373e9ab-browser-sync.lock
+105 verbose addNamed [ 'gulp-ruby-sass', '' ]
+106 verbose addNamed [ null, '*' ]
+107 silly lockFile c308c9d4-gulp-ruby-sass gulp-ruby-sass@
+108 verbose lock gulp-ruby-sass@ C:\Users\Administrator\AppData\Roaming\npm-cache\c308c9d4-gulp-ruby-sass.lock
+109 verbose addNamed [ 'gulp-uglify', '' ]
+110 verbose addNamed [ null, '*' ]
+111 silly lockFile 044a9113-gulp-uglify gulp-uglify@
+112 verbose lock gulp-uglify@ C:\Users\Administrator\AppData\Roaming\npm-cache\044a9113-gulp-uglify.lock
+113 silly lockFile 1f23bbce-imagemin-pngquant imagemin-pngquant
+114 silly lockFile 1f23bbce-imagemin-pngquant imagemin-pngquant
+115 verbose addNamed [ 'gulp-util', '' ]
+116 verbose addNamed [ null, '*' ]
+117 silly lockFile ecd61fb3-gulp-util gulp-util@
+118 verbose lock gulp-util@ C:\Users\Administrator\AppData\Roaming\npm-cache\ecd61fb3-gulp-util.lock
+119 verbose addNamed [ 'gulp-concat', '' ]
+120 verbose addNamed [ null, '*' ]
+121 silly lockFile 190d832a-gulp-concat gulp-concat@
+122 verbose lock gulp-concat@ C:\Users\Administrator\AppData\Roaming\npm-cache\190d832a-gulp-concat.lock
+123 silly lockFile 21ba2837-md5-file md5-file
+124 silly lockFile 21ba2837-md5-file md5-file
+125 verbose addNamed [ 'gulp-rename', '' ]
+126 verbose addNamed [ null, '*' ]
+127 silly lockFile 81aa0665-gulp-rename gulp-rename@
+128 verbose lock gulp-rename@ C:\Users\Administrator\AppData\Roaming\npm-cache\81aa0665-gulp-rename.lock
+129 verbose addNamed [ 'gulp-cssmin', '' ]
+130 verbose addNamed [ null, '*' ]
+131 silly lockFile 2425ce01-gulp-cssmin gulp-cssmin@
+132 verbose lock gulp-cssmin@ C:\Users\Administrator\AppData\Roaming\npm-cache\2425ce01-gulp-cssmin.lock
+133 silly lockFile 4fe9f629-imagemin-jpegtran imagemin-jpegtran
+134 silly lockFile 4fe9f629-imagemin-jpegtran imagemin-jpegtran
+135 verbose addNamed [ 'gulp-jshint', '' ]
+136 verbose addNamed [ null, '*' ]
+137 silly lockFile 8b36bbde-gulp-jshint gulp-jshint@
+138 verbose lock gulp-jshint@ C:\Users\Administrator\AppData\Roaming\npm-cache\8b36bbde-gulp-jshint.lock
+139 verbose addNamed [ 'gulp-imagemin', '' ]
+140 verbose addNamed [ null, '*' ]
+141 silly lockFile 0ba22ca1-gulp-imagemin gulp-imagemin@
+142 verbose lock gulp-imagemin@ C:\Users\Administrator\AppData\Roaming\npm-cache\0ba22ca1-gulp-imagemin.lock
+143 verbose addNamed [ 'gulp-replace', '' ]
+144 verbose addNamed [ null, '*' ]
+145 silly lockFile d2e3d9cb-gulp-replace gulp-replace@
+146 verbose lock gulp-replace@ C:\Users\Administrator\AppData\Roaming\npm-cache\d2e3d9cb-gulp-replace.lock
+147 verbose addNamed [ 'imagemin-pngquant', '' ]
+148 verbose addNamed [ null, '*' ]
+149 silly lockFile 41acbfe5-imagemin-pngquant imagemin-pngquant@
+150 verbose lock imagemin-pngquant@ C:\Users\Administrator\AppData\Roaming\npm-cache\41acbfe5-imagemin-pngquant.lock
+151 verbose addNamed [ 'md5-file', '' ]
+152 verbose addNamed [ null, '*' ]
+153 silly lockFile c3c54462-md5-file md5-file@
+154 verbose lock md5-file@ C:\Users\Administrator\AppData\Roaming\npm-cache\c3c54462-md5-file.lock
+155 verbose addNamed [ 'imagemin-jpegtran', '' ]
+156 verbose addNamed [ null, '*' ]
+157 silly lockFile ccc4a629-imagemin-jpegtran imagemin-jpegtran@
+158 verbose lock imagemin-jpegtran@ C:\Users\Administrator\AppData\Roaming\npm-cache\ccc4a629-imagemin-jpegtran.lock
+159 silly addNameRange { name: 'gulp-wrapper', range: '*', hasData: false }
+160 silly addNameRange { name: 'browser-sync', range: '*', hasData: false }
+161 silly addNameRange { name: 'gulp-ruby-sass', range: '*', hasData: false }
+162 silly addNameRange { name: 'gulp-concat', range: '*', hasData: false }
+163 silly addNameRange { name: 'gulp-util', range: '*', hasData: false }
+164 silly addNameRange { name: 'gulp-uglify', range: '*', hasData: false }
+165 silly addNameRange { name: 'gulp-rename', range: '*', hasData: false }
+166 silly addNameRange { name: 'gulp-cssmin', range: '*', hasData: false }
+167 silly addNameRange { name: 'gulp-jshint', range: '*', hasData: false }
+168 silly addNameRange { name: 'gulp-imagemin', range: '*', hasData: false }
+169 verbose request where is /gulp-wrapper
+170 verbose request registry https://registry.npmjs.org/
+171 verbose request id 08a284d213b49853
+172 verbose url raw /gulp-wrapper
+173 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-wrapper' ]
+174 verbose url resolved https://registry.npmjs.org/gulp-wrapper
+175 verbose request where is https://registry.npmjs.org/gulp-wrapper
+176 info trying registry request attempt 1 at 17:39:19
+177 http GET https://registry.npmjs.org/gulp-wrapper
+178 verbose request where is /browser-sync
+179 verbose request registry https://registry.npmjs.org/
+180 verbose url raw /browser-sync
+181 verbose url resolving [ 'https://registry.npmjs.org/', './browser-sync' ]
+182 verbose url resolved https://registry.npmjs.org/browser-sync
+183 verbose request where is https://registry.npmjs.org/browser-sync
+184 info trying registry request attempt 1 at 17:39:19
+185 http GET https://registry.npmjs.org/browser-sync
+186 silly addNameRange { name: 'gulp-replace', range: '*', hasData: false }
+187 verbose request where is /gulp-ruby-sass
+188 verbose request registry https://registry.npmjs.org/
+189 verbose url raw /gulp-ruby-sass
+190 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-ruby-sass' ]
+191 verbose url resolved https://registry.npmjs.org/gulp-ruby-sass
+192 verbose request where is https://registry.npmjs.org/gulp-ruby-sass
+193 info trying registry request attempt 1 at 17:39:19
+194 http GET https://registry.npmjs.org/gulp-ruby-sass
+195 verbose request where is /gulp-concat
+196 verbose request registry https://registry.npmjs.org/
+197 verbose url raw /gulp-concat
+198 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-concat' ]
+199 verbose url resolved https://registry.npmjs.org/gulp-concat
+200 verbose request where is https://registry.npmjs.org/gulp-concat
+201 info trying registry request attempt 1 at 17:39:19
+202 http GET https://registry.npmjs.org/gulp-concat
+203 verbose request where is /gulp-uglify
+204 verbose request registry https://registry.npmjs.org/
+205 verbose url raw /gulp-uglify
+206 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-uglify' ]
+207 verbose url resolved https://registry.npmjs.org/gulp-uglify
+208 verbose request where is https://registry.npmjs.org/gulp-uglify
+209 info trying registry request attempt 1 at 17:39:19
+210 http GET https://registry.npmjs.org/gulp-uglify
+211 silly addNameRange { name: 'imagemin-pngquant', range: '*', hasData: false }
+212 silly addNameRange { name: 'md5-file', range: '*', hasData: false }
+213 verbose request where is /gulp-rename
+214 verbose request registry https://registry.npmjs.org/
+215 verbose url raw /gulp-rename
+216 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-rename' ]
+217 verbose url resolved https://registry.npmjs.org/gulp-rename
+218 verbose request where is https://registry.npmjs.org/gulp-rename
+219 info trying registry request attempt 1 at 17:39:19
+220 http GET https://registry.npmjs.org/gulp-rename
+221 verbose request where is /gulp-cssmin
+222 verbose request registry https://registry.npmjs.org/
+223 verbose url raw /gulp-cssmin
+224 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-cssmin' ]
+225 verbose url resolved https://registry.npmjs.org/gulp-cssmin
+226 verbose request where is https://registry.npmjs.org/gulp-cssmin
+227 info trying registry request attempt 1 at 17:39:19
+228 http GET https://registry.npmjs.org/gulp-cssmin
+229 silly addNameRange { name: 'imagemin-jpegtran', range: '*', hasData: false }
+230 verbose request where is /gulp-jshint
+231 verbose request registry https://registry.npmjs.org/
+232 verbose url raw /gulp-jshint
+233 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-jshint' ]
+234 verbose url resolved https://registry.npmjs.org/gulp-jshint
+235 verbose request where is https://registry.npmjs.org/gulp-jshint
+236 info trying registry request attempt 1 at 17:39:19
+237 http GET https://registry.npmjs.org/gulp-jshint
+238 verbose request where is /gulp-imagemin
+239 verbose request registry https://registry.npmjs.org/
+240 verbose url raw /gulp-imagemin
+241 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-imagemin' ]
+242 verbose url resolved https://registry.npmjs.org/gulp-imagemin
+243 verbose request where is https://registry.npmjs.org/gulp-imagemin
+244 info trying registry request attempt 1 at 17:39:19
+245 http GET https://registry.npmjs.org/gulp-imagemin
+246 verbose request where is /gulp-replace
+247 verbose request registry https://registry.npmjs.org/
+248 verbose url raw /gulp-replace
+249 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-replace' ]
+250 verbose url resolved https://registry.npmjs.org/gulp-replace
+251 verbose request where is https://registry.npmjs.org/gulp-replace
+252 info trying registry request attempt 1 at 17:39:19
+253 http GET https://registry.npmjs.org/gulp-replace
+254 verbose request where is /imagemin-pngquant
+255 verbose request registry https://registry.npmjs.org/
+256 verbose url raw /imagemin-pngquant
+257 verbose url resolving [ 'https://registry.npmjs.org/', './imagemin-pngquant' ]
+258 verbose url resolved https://registry.npmjs.org/imagemin-pngquant
+259 verbose request where is https://registry.npmjs.org/imagemin-pngquant
+260 info trying registry request attempt 1 at 17:39:19
+261 http GET https://registry.npmjs.org/imagemin-pngquant
+262 verbose request where is /md5-file
+263 verbose request registry https://registry.npmjs.org/
+264 verbose url raw /md5-file
+265 verbose url resolving [ 'https://registry.npmjs.org/', './md5-file' ]
+266 verbose url resolved https://registry.npmjs.org/md5-file
+267 verbose request where is https://registry.npmjs.org/md5-file
+268 info trying registry request attempt 1 at 17:39:19
+269 http GET https://registry.npmjs.org/md5-file
+270 verbose request where is /imagemin-jpegtran
+271 verbose request registry https://registry.npmjs.org/
+272 verbose url raw /imagemin-jpegtran
+273 verbose url resolving [ 'https://registry.npmjs.org/', './imagemin-jpegtran' ]
+274 verbose url resolved https://registry.npmjs.org/imagemin-jpegtran
+275 verbose request where is https://registry.npmjs.org/imagemin-jpegtran
+276 info trying registry request attempt 1 at 17:39:19
+277 http GET https://registry.npmjs.org/imagemin-jpegtran
+278 verbose request where is /gulp-util
+279 verbose request registry https://registry.npmjs.org/
+280 verbose url raw /gulp-util
+281 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-util' ]
+282 verbose url resolved https://registry.npmjs.org/gulp-util
+283 verbose request where is https://registry.npmjs.org/gulp-util
+284 info trying registry request attempt 1 at 17:39:19
+285 verbose etag "ZFVQEDJVDTBWS1R0UC9VPUIQ"
+286 http GET https://registry.npmjs.org/gulp-util
+287 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+288 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+289 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+290 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+291 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+292 info trying registry request attempt 2 at 17:39:50
+293 http GET https://registry.npmjs.org/gulp-uglify
+294 info trying registry request attempt 2 at 17:39:50
+295 http GET https://registry.npmjs.org/gulp-wrapper
+296 info trying registry request attempt 2 at 17:39:50
+297 http GET https://registry.npmjs.org/gulp-ruby-sass
+298 info trying registry request attempt 2 at 17:39:50
+299 http GET https://registry.npmjs.org/browser-sync
+300 info trying registry request attempt 2 at 17:39:51
+301 http GET https://registry.npmjs.org/gulp-concat
+302 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+303 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+304 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+305 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+306 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+307 info trying registry request attempt 2 at 17:40:11
+308 http GET https://registry.npmjs.org/gulp-rename
+309 info trying registry request attempt 2 at 17:40:11
+310 http GET https://registry.npmjs.org/gulp-imagemin
+311 info trying registry request attempt 2 at 17:40:11
+312 http GET https://registry.npmjs.org/gulp-cssmin
+313 info trying registry request attempt 2 at 17:40:11
+314 http GET https://registry.npmjs.org/gulp-jshint
+315 info trying registry request attempt 2 at 17:40:12
+316 http GET https://registry.npmjs.org/gulp-replace
+317 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+318 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+319 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+320 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+321 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+322 info trying registry request attempt 2 at 17:40:33
+323 verbose etag "ZFVQEDJVDTBWS1R0UC9VPUIQ"
+324 http GET https://registry.npmjs.org/gulp-util
+325 info trying registry request attempt 2 at 17:40:33
+326 http GET https://registry.npmjs.org/imagemin-jpegtran
+327 info trying registry request attempt 2 at 17:40:33
+328 http GET https://registry.npmjs.org/imagemin-pngquant
+329 info trying registry request attempt 2 at 17:40:33
+330 http GET https://registry.npmjs.org/md5-file
+331 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+332 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+333 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+334 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+335 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+336 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+337 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+338 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+339 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+340 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+341 info trying registry request attempt 3 at 17:41:23
+342 http GET https://registry.npmjs.org/gulp-uglify
+343 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+344 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+345 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+346 info trying registry request attempt 3 at 17:41:44
+347 http GET https://registry.npmjs.org/gulp-wrapper
+348 info trying registry request attempt 3 at 17:41:44
+349 http GET https://registry.npmjs.org/gulp-ruby-sass
+350 info trying registry request attempt 3 at 17:41:44
+351 http GET https://registry.npmjs.org/browser-sync
+352 info trying registry request attempt 3 at 17:41:44
+353 http GET https://registry.npmjs.org/gulp-concat
+354 info trying registry request attempt 3 at 17:41:44
+355 http GET https://registry.npmjs.org/gulp-rename
+356 silly lockFile 044a9113-gulp-uglify gulp-uglify@
+357 silly lockFile 044a9113-gulp-uglify gulp-uglify@
+358 silly lockFile c308c9d4-gulp-ruby-sass gulp-ruby-sass@
+359 silly lockFile c308c9d4-gulp-ruby-sass gulp-ruby-sass@
+360 silly lockFile a8bc071e-gulp-wrapper gulp-wrapper@
+361 silly lockFile a8bc071e-gulp-wrapper gulp-wrapper@
+362 silly lockFile 6373e9ab-browser-sync browser-sync@
+363 silly lockFile 6373e9ab-browser-sync browser-sync@
+364 silly lockFile 190d832a-gulp-concat gulp-concat@
+365 silly lockFile 190d832a-gulp-concat gulp-concat@
+366 info trying registry request attempt 3 at 17:42:05
+367 http GET https://registry.npmjs.org/gulp-imagemin
+368 info trying registry request attempt 3 at 17:42:05
+369 http GET https://registry.npmjs.org/gulp-cssmin
+370 info trying registry request attempt 3 at 17:42:05
+371 http GET https://registry.npmjs.org/gulp-replace
+372 info trying registry request attempt 3 at 17:42:05
+373 http GET https://registry.npmjs.org/gulp-jshint
+374 info trying registry request attempt 3 at 17:42:05
+375 verbose etag "ZFVQEDJVDTBWS1R0UC9VPUIQ"
+376 http GET https://registry.npmjs.org/gulp-util
+377 silly lockFile 81aa0665-gulp-rename gulp-rename@
+378 silly lockFile 81aa0665-gulp-rename gulp-rename@
+379 info trying registry request attempt 3 at 17:42:26
+380 http GET https://registry.npmjs.org/imagemin-jpegtran
+381 info trying registry request attempt 3 at 17:42:26
+382 http GET https://registry.npmjs.org/md5-file
+383 info trying registry request attempt 3 at 17:42:26
+384 http GET https://registry.npmjs.org/imagemin-pngquant
+385 silly lockFile 0ba22ca1-gulp-imagemin gulp-imagemin@
+386 silly lockFile 0ba22ca1-gulp-imagemin gulp-imagemin@
+387 silly lockFile 8b36bbde-gulp-jshint gulp-jshint@
+388 silly lockFile 8b36bbde-gulp-jshint gulp-jshint@
+389 silly registry.get cb [ 304, undefined ]
+390 verbose etag https://registry.npmjs.org/gulp-util from cache
+391 silly addNameRange number 2 { name: 'gulp-util', range: '*', hasData: true }
+392 silly addNameRange versions [ 'gulp-util',
+392 silly addNameRange   [ '0.0.1',
+392 silly addNameRange     '1.0.0',
+392 silly addNameRange     '1.1.0',
+392 silly addNameRange     '1.1.1',
+392 silly addNameRange     '1.2.0',
+392 silly addNameRange     '1.3.0',
+392 silly addNameRange     '2.0.0',
+392 silly addNameRange     '2.1.1',
+392 silly addNameRange     '2.1.2',
+392 silly addNameRange     '2.1.3',
+392 silly addNameRange     '2.1.4',
+392 silly addNameRange     '2.2.0',
+392 silly addNameRange     '2.2.1',
+392 silly addNameRange     '2.2.2',
+392 silly addNameRange     '2.2.3',
+392 silly addNameRange     '2.2.5',
+392 silly addNameRange     '2.2.6',
+392 silly addNameRange     '2.2.7',
+392 silly addNameRange     '2.2.8',
+392 silly addNameRange     '2.2.9',
+392 silly addNameRange     '2.2.10',
+392 silly addNameRange     '2.2.11',
+392 silly addNameRange     '2.2.12',
+392 silly addNameRange     '2.2.13',
+392 silly addNameRange     '2.2.14',
+392 silly addNameRange     '2.2.15',
+392 silly addNameRange     '2.2.16',
+392 silly addNameRange     '2.2.17',
+392 silly addNameRange     '2.2.18',
+392 silly addNameRange     '2.2.19',
+392 silly addNameRange     '2.2.20',
+392 silly addNameRange     '3.0.0',
+392 silly addNameRange     '3.0.1',
+392 silly addNameRange     '3.0.2',
+392 silly addNameRange     '3.0.3',
+392 silly addNameRange     '3.0.4',
+392 silly addNameRange     '3.0.5' ] ]
+393 verbose addNamed [ 'gulp-util', '3.0.5' ]
+394 verbose addNamed [ '3.0.5', '3.0.5' ]
+395 silly lockFile 7e810962-gulp-util-3-0-5 gulp-util@3.0.5
+396 verbose lock gulp-util@3.0.5 C:\Users\Administrator\AppData\Roaming\npm-cache\7e810962-gulp-util-3-0-5.lock
+397 silly lockFile 7e810962-gulp-util-3-0-5 gulp-util@3.0.5
+398 silly lockFile 7e810962-gulp-util-3-0-5 gulp-util@3.0.5
+399 silly lockFile ecd61fb3-gulp-util gulp-util@
+400 silly lockFile ecd61fb3-gulp-util gulp-util@
+401 silly lockFile 2425ce01-gulp-cssmin gulp-cssmin@
+402 silly lockFile 2425ce01-gulp-cssmin gulp-cssmin@
+403 silly lockFile d2e3d9cb-gulp-replace gulp-replace@
+404 silly lockFile d2e3d9cb-gulp-replace gulp-replace@
+405 silly lockFile c3c54462-md5-file md5-file@
+406 silly lockFile c3c54462-md5-file md5-file@
+407 silly lockFile ccc4a629-imagemin-jpegtran imagemin-jpegtran@
+408 silly lockFile ccc4a629-imagemin-jpegtran imagemin-jpegtran@
+409 silly lockFile 41acbfe5-imagemin-pngquant imagemin-pngquant@
+410 silly lockFile 41acbfe5-imagemin-pngquant imagemin-pngquant@
+411 error network connect ETIMEDOUT
+411 error network This is most likely not a problem with npm itself
+411 error network and is related to network connectivity.
+411 error network In most cases you are behind a proxy or have bad network settings.
+411 error network
+411 error network If you are behind a proxy, please make sure that the
+411 error network 'proxy' config is set properly.  See: 'npm help config'
+412 error System Windows_NT 6.1.7601
+413 error command "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "gulp-wrapper" "browser-sync" "gulp-jshint" "gulp-ruby-sass" "gulp-concat" "gulp-uglify" "gulp-util" "gulp-rename" "gulp-cssmin" "gulp-imagemin" "gulp-replace" "md5-file" "imagemin-pngquant" "imagemin-jpegtran" "--save-dev"
+414 error cwd D:\tuxing-seajs
+415 error node -v v0.10.35
+416 error npm -v 1.4.28
+417 error syscall connect
+418 error code ETIMEDOUT
+419 error errno ETIMEDOUT
+420 verbose exit [ 1, true ]
